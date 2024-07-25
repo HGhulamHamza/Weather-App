@@ -60,10 +60,7 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     height: '100vh',
-    backgroundImage: 'url(https://t4.ftcdn.net/jpg/02/99/79/41/240_F_299794170_3Md156JNSuBt7oHBaRApj1lvm5IjS6CL.jpghttps://t3.ftcdn.net/jpg/02/70/92/68/240_F_270926864_i2D8igkbTP5EF2Fl9tU8Kcopa8EcZvC7.jpghttps://t3.ftcdn.net/jpg/00/75/76/58/240_F_75765874_o4Z1ncSW94KkplLKrwLYIFAV9V4HqD5U.jpg)',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
+    backgroundImage: 'url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg)',  // Use the URL of the image
     fontFamily: 'Arial',
   },
   card: {
@@ -94,11 +91,12 @@ const styles = {
     padding: '10px 20px',
     fontSize: '16px',
     cursor: 'pointer',
-    backgroundColor: 'lightgreen',
-    borderRadius: '15px',  // Increased border radius
+    backgroundColor: 'white',
+    borderRadius: '16px',  // Increased border radius
     border: 'none',
-    width: '50%',  // Smaller width
+    width: '45%',  // Smaller width
     boxSizing: 'border-box',
+    marginTop:`25px`,
   },
   error: {
     color: 'red',
